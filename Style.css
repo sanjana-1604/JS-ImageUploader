@@ -1,0 +1,53 @@
+body{
+
+  background:linear-gradient(
+    to right, #00cdac,
+    #02aab0
+  );
+}
+*
+{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+}
+.container
+{
+  text-align: center;
+}
+.wrapper
+{
+  display: inline;
+  padding:1.4em 2em;
+  border-radius: 0.4em;
+  background: #f6fafa;
+  color: #1c1e2d;
+  position: relative;
+}
+ .container #fileBtn
+{
+  border:0;
+  top:0%;
+  left:0%;
+  height:100%;
+  width:100%;
+  background: none;
+  position:absolute;
+  cursor: pointer;
+}
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5em;
+}
+.row .column
+{
+  flex:25%;
+  padding: 0.1em;
+}
+.row .column .img{
+  width:100%;
+  border: 2px solid #e5e5e6;
+  display:none;
+}
